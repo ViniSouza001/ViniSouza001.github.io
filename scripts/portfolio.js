@@ -6,7 +6,6 @@ main.style.display = 'block'
 
 function createStar() {
     let size = definirTamanho();
-    console.log(size)
     const star = document.createElement('div');
     star.classList.add('star');
     star.style.top = Math.random() * 100 + '%';

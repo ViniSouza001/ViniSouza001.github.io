@@ -4,21 +4,10 @@ body {
     box-sizing: border-box;
     display: flex;
     justify-content: center;
-    overflow: hidden;
-}
-
-main {
     width: 100vw;
     height: 100vh;
-    text-align: center;
-    overflow-x: hidden;
+    overflow: hidden;
     background: linear-gradient(to top,#732020,#202373);
-    display: none;
-}
-
-h1 {
-    font-family: 'Roboto';
-    color: white;
 }
 
 .star {
@@ -31,7 +20,6 @@ h1 {
     box-shadow: 0 0 2px white;
     animation: twinkle 3s linear infinite;
 }
-
 
 @keyframes twinkle {
     0% {
