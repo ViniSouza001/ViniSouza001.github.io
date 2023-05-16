@@ -19,6 +19,7 @@ body {
     opacity: 0;
     box-shadow: 0 0 2px white;
     animation: twinkle 3s linear infinite;
+    z-index: -1;
 }
 
 @keyframes twinkle {

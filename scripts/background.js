@@ -2,7 +2,6 @@ const body = document.querySelector('body');
 const main = document.querySelector('main');
 
 main.classList.add('fadeIn');
-main.style.display = 'block'
 
 function createStar() {
     let size = definirTamanho();
@@ -16,7 +15,7 @@ function createStar() {
     body.appendChild(star);
 }
 
-for (let i = 0; i < 200; i++) {
+for (let i = 0; i < 500; i++) {
     createStar();
 }
 
