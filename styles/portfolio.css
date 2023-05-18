@@ -64,3 +64,19 @@ img {
 #frontend_png {
     position: absolute;
 }
+
+@media (max-width: 400px) {
+    body {
+        height: 100vh;
+        overflow-y: hidden;
+        ::-webkit-scrollbar-track {
+            width: 0px;
+        }
+    }    
+
+    main {
+        flex-direction: column;
+        padding-top: 30px;
+        gap: 1rem;
+    }
+}
