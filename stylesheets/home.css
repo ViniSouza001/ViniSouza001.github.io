@@ -179,9 +179,9 @@ button:hover {
 
 @media (max-width: 450px) {
 
-    .img > a > img {
+    /* .img > a > img {
         width: 70px;
-    }
+    } */
     
     button {
         width: 120px;
@@ -203,10 +203,6 @@ button:hover {
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
-        text-align: center;
-        align-self: center;
-        width: 100vw;
     }
 
     .myself-text {
