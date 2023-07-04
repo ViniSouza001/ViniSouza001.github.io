@@ -34,43 +34,53 @@
     flex-direction: column;
     align-items: center;
     z-index: 1;
-    animation: div-desaparecer 2s;
-    animation-delay: 5s;
+    animation: div-desaparecer 1.7s;
+    animation-delay: 3.5s;
     animation-fill-mode: both;
 }
 
 #first {
-    animation: aparecer 2.5s;
-    position: relative;
+    animation: aparecer 2s;
+    position: absolute;
     opacity: 0;
     font-size: 30px;
     font-family: 'Dancing Script';
 }
 
 #second {
-    position: relative;
-    animation: aparecer 2.5s;
-    animation-delay: 1.5s;
+    position: absolute;
+    animation: aparecer 2s;
+    animation-delay: 1s;
     opacity: 0;
     font-size: 30px;
     font-family: 'Dancing Script';
 }
   
 #thirth {
-    position: relative;
-    animation: aparecer 2.5s;
-    animation-delay: 3s;
+    position: absolute;
+    animation: aparecer 2s;
+    animation-delay: 2s;
     opacity: 0;
     font-size: 30px;
     font-family: 'Dancing Script';
 }
 
+#first, #second, #thirth {
+    margin-top: 200px;
+}
+
 body {
-    margin: 20px;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 20px;
+    overflow-y: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
     overflow-x: hidden;
+    /* background-image: url('../assets/backgroud2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; */
 }
 
 main {
@@ -80,7 +90,6 @@ main {
     align-items: center;
     height: 100%;
     position: absolute;
-    animation: final 10s;
     z-index: 0;
     gap: 3rem;
 }
@@ -114,8 +123,31 @@ h1 {
     gap: 2rem;
 }
 
-#main-img {
+#perfil, #vini-calvo {
     width: 200px;
+    border-radius: 10px;
+}
+
+#imgs {
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+.myself-text {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+#name {
+    font-size: 25px;
+}
+
+#hobbies {
+    font-family: "Roboto";
+    font-weight: bold;
 }
 
 button {
@@ -145,10 +177,8 @@ button:hover {
     }
 }
 
-@media (max-width: 400px) {
-    #name {
-        font-size: 27px;
-    }
+@media (max-width: 450px) {
+
     .img > a > img {
         width: 70px;
     }
@@ -165,7 +195,35 @@ button:hover {
 
     .container {
         display: flex;
-        height: 50%;
+        height: 100vh;
+        width: 100vw;
+    }
+
+    #imgs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        align-self: center;
+        width: 100vw;
+    }
+
+    .myself-text {
+        gap: 1rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    #name {
+        width: 80%;
+        font-size: 20px;
+        align-self: center;
+    }
+
+    #hobbies {
+        width: 75%;
+        align-self: center;
     }
 }
 
