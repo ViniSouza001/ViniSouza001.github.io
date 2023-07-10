@@ -5,7 +5,6 @@ document.head.appendChild(animation)
 // pagina sobre mim
 const aboutMe = document.querySelector('.about-me')
 const voltar = document.querySelector('.voltar')
-console.log(voltar);
 
 
 const button1 = buttons[0]
