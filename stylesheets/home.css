@@ -97,7 +97,7 @@ h1 {
 }
 
 .img > a > img {
-    width: 100px;
+    width: 90px;
 }
 
 .container {
@@ -118,7 +118,7 @@ h1 {
 .img {
     display: flex;
     align-items: center;
-    gap: 2rem;
+    gap: 1.5rem;
 }
 
 #perfil, #vini-calvo {
