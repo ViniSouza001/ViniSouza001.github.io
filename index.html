@@ -49,7 +49,7 @@
     <!------------- ABOUT ME -------------------->
     <div class="about-me">
         <header>
-            <div class="voltarAboutMe voltar">
+            <div class="voltarAboutMe voltar" onclick="voltar()">
                 <img src="./assets/back.png" alt="seta de voltar" id="seta-voltar">
                 <p id="txt-voltar">Back</p>
             </div>
@@ -74,16 +74,25 @@
     <!------------- PROJECTS -------------------->
     <div class="projects">
         <header>
+            <div class="voltarProject voltar" onclick="voltar()">
+                <img src="./assets/back.png" alt="seta de voltar" id="seta-voltar">
+                <p id="txt-voltar">Back</p>
+            </div>
+        </header>
+        <h1 class="title">Projects</h1>
+        <div id="works"></div>
+        <h1 class="title">Videos</h1>
+        <div id="videos"></div>
+    </div>
+    <!------------- CURRICULUM -------------------->
+    <!-- <div class="curriculum">
+        <header>
             <div class="voltarProject voltar">
                 <img src="./assets/back.png" alt="seta de voltar" id="seta-voltar">
                 <p id="txt-voltar">Back</p>
             </div>
         </header>
-        <h1 class="title">Projetos</h1>
-        <div id="works"></div>
-        <h1 class="title">Videos</h1>
-        <div id="videos"></div>
-    </div>
+    </div> -->
 </body>
 <script src="./scripts/container.js"></script>
 <script src="./scripts/home.js"></script>

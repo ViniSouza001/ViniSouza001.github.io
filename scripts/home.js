@@ -35,22 +35,17 @@ button2.addEventListener('click', () => {
 })
 
 button3.addEventListener('click', () => {
-    alert('clicado na button 3')
+    alert('Will arrive soon')
 })
 
-voltarAboutMe.addEventListener('click', () => {
+const voltar = () => {
     aboutMe.style.animation = 'fade-out .5s ease-out'
-    setTimeout(() => {aboutMe.style.display = 'none'}, 450)
-
-    main.style.animation = 'fade-in .5s ease-in'   
-})
-
-voltarProject.addEventListener('click', () => {
     divProjects.style.animation = 'fade-out .5s ease-out'
+    setTimeout(() => {aboutMe.style.display = 'none'}, 450)
     setTimeout(() => {divProjects.style.display = 'none'}, 450)
 
     main.style.animation = 'fade-in .5s ease-in'
-})
+}
 
 function carregarProjetos() {
     projetos.forEach(projeto => {
@@ -59,7 +54,7 @@ function carregarProjetos() {
         card.innerHTML = `
         <a target="_blank" href="${projeto.link}"
             <h1 class="projetoTitulo">${projeto.titulo}</h1>
-            <img src="${projeto.imagem}" class="projetoImagem"
+            <img src="${projeto.imagem}" class="projetoImagem"/>
             <p class="projetoDescricao">${projeto.descricao}</p>
         </a>
         `
