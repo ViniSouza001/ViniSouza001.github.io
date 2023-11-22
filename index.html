@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="./stylesheets/main.css">
+        <link rel="stylesheet" href="./stylesheets/informations.css">
+    </head>
+
+    <body>
+        <div class="entrada">
+            <div class="content">
+                <h1 id="first">Hello!</h1>
+                <h1 id="second">And welcome</h1>
+                <h1 id="thirth">To my portfolio</h1>
+            </div>
+        </div>
+        <main>
+            <div class="container">
+                <img id="vini-calvo" src="./assets/imagem-vini_calvo-removebg-preview.png" alt="A photo of me">
+                <div class="buttonsParent">
+                    <div class="buttons">
+                        <p>About me</p>
+                    </div>
+                    <div class="buttons">
+                        <p>Projects</p>
+                    </div>
+                    <div class="buttons">
+                        <p>Curriculum</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <a href="https://www.instagram.com/vinisouza.exe/" target="_blank">
+                        <img src="./assets/insta-logo.png" alt="insta-log">
+                    </a>
+                    <a href="https://github.com/vinisouza001" target="_blank">
+                        <img src="./assets/GITHUB-LOGO.png" alt="github-log">
+                    </a>
+                    <a href="https://api.whatsapp.com/send/?phone=5519996898117&text&type=phone_number&app_absent=0"
+                        target="_blank">
+                        <img src="./assets/logo-zap.png" alt="whatsapp-log">
+                    </a>
+                    <a href="www.linkedin.com/in/vinícius-vieira-17461427a" target="_blank">
+                        <img src="./assets/linkedin-logo.png" alt="linkedin logo" id="linkedin">
+                    </a>
+                </div>
+            </div>
+        </main>
+        <!------------- ABOUT ME -------------------->
+        <div class="about-me">
+            <header>
+                <div class="voltarAboutMe voltar">
+                    <img src="./assets/back.png" alt="seta de voltar" class="seta-voltar">
+                    <p id="txt-voltar">Back</p>
+                </div>
+            </header>
+            <img src="./assets/perfil.jpg" alt="Uma foto minha" id="perfil">
+            <p id="title-about-me">Hey guys, my name is Vinicius Vieira de Souza!!</p>
+            <p class="txt-about-me">I'm curious, polymath and self-taught. In my spare time, I enjoy playing games,
+                programming, riding a bike, listening musics and work out.
+            </p>
+            <p class="txt-about-me">
+                I strive in everything I do and I am concerned first with quality and then quantity.
+            </p>
+            <p class="txt-about-me">
+                I worked as an intern at Caixa Econômica Federal, there I learned how to work with the public and
+                work in a team. Today I study systems analysis and development at Senai and I'm looking for a job in the
+                area.
+                For now, I'm a junior full stack programmer and I'm open to always learning new things.
+            </p>
+            <p class="txt-about-me">
+                I have stuyied english on Excellent Global for 6 years, and my level of english is advanced.
+            </p>
+        </div>
+        <!------------- PROJECTS -------------------->
+        <div class="projects">
+            <header>
+                <div class="voltarProject voltar inverso">
+                    <img src="./assets/back.png" alt="seta de voltar" class="seta-voltar" id="voltar-inverso">
+                    <p id="txt-voltar">Back</p>
+                </div>
+            </header>
+            <h1 class="title">Projects</h1>
+            <div id="works"></div>
+            <h1 class="title">Videos</h1>
+            <div id="videos"></div>
+        </div>
+        <!------------- CURRICULUM -------------------->
+        <div class="curriculum">
+            <header>
+                <div class="voltarProject voltar">
+                    <img src="./assets/back.png" alt="seta de voltar" class="seta-voltar">
+                    <p id="txt-voltar">Back</p>
+                </div>
+            </header>
+            <div class="content">
+                <div class="card">
+                    <a href="./resumes/curriculo.pdf" target="_blank">
+                        <img class="img-curriculum" src="./assets/curriculum-pdf.png" alt="curriculum pdf">
+                        <p class="txt-card">Curriculum pdf</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="./resumes/resume.html" target="_blank">
+                        <img class="img-curriculum" src="./assets/curriculum-html.png" alt="curriculum html">
+                        <p class="txt-card">Curriculum html</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="./scripts/container.js"></script>
+    <script src="./scripts/main.js"></script>
+
+</html>
