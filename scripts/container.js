@@ -45,5 +45,12 @@ const projetos = [
         "descricao": "A project created studying Node.js",
         "linkGit": "https://github.com/ViniSouza001/BlogApp/",
         "linkProj": "https://blogapp-proj.vercel.app/"
+    },
+    {
+        "titulo": "Github Finder",
+        "imagem": "../assets/github_finder.png",
+        "descricao": "A project developed studying TypeScript",
+        "linkGit": "https://github.com/ViniSouza001/github_finder",
+        "linkProj": "https://github-finder001.vercel.app/"
     }
 ]
