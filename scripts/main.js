@@ -115,23 +115,6 @@ voltar[0].addEventListener('click', backToRight1)
 voltar[1].addEventListener('click', backToLeft)
 voltar[2].addEventListener('click', backToRight2)
 
-
-
-// voltar.forEach((botao) => {
-//     botao.addEventListener('click', () => {
-//         aboutMe.style.animation = 'fade-out .5s ease-out'
-//         setTimeout(() => { aboutMe.style.display = 'none' }, 450)
-
-//         divProjects.style.animation = 'fade-out .5s ease-out'
-//         setTimeout(() => { divProjects.style.display = 'none' }, 450)
-
-//         curriculum.style.animation = 'fade-out .5s ease-out'
-//         setTimeout(() => { curriculum.style.display = 'none' }, 450)
-
-//         main.style.animation = 'fade-in .5s ease-in'
-//     })
-// })
-
 function carregarProjetos() {
     projetos.forEach(projeto => {
         const card = document.createElement('div')
