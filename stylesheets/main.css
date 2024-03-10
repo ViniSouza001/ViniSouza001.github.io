@@ -204,7 +204,10 @@ button:hover {
   padding: 10px;
   text-align: center;
   cursor: pointer;
-  animation: piscar 3s infinite;
+}
+
+.buttons:hover p {
+  text-decoration: underline;
 }
 
 .buttons > p {
@@ -235,10 +238,20 @@ button:hover {
 @keyframes to-left {
   0% {
     margin-left: 0px;
+    opacity: 1;
+    display: flex;
+  }
+
+  95% {
+    margin-left: -200px;
+    opacity: 0;
+    display: flex;
   }
 
   100% {
-    margin-left: -200vw;
+    margin-left: -200px;
+    opacity: 0;
+    display: none;
   }
 }
 
@@ -262,13 +275,39 @@ button:hover {
   }
 }
 
-@keyframes appear-to-left {
+/* @keyframes appear-to-left {
   0% {
     margin-left: -200vw;
   }
 
   100% {
     margin-left: 0px;
+  }
+} */
+
+@keyframes appear-to-left {
+  0% {
+    display: none;
+    margin-left: -200px;
+    opacity: 0;
+  }
+
+  1% {
+    display: flex;
+    margin-left: -200px;
+    opacity: 0;
+  }
+
+  20% {
+    display: flex;
+    margin-left: -200px;
+    opacity: 1;
+  }
+
+  100% {
+    margin-left: 0px;
+    display: flex;
+    opacity: 1;
   }
 }
 
