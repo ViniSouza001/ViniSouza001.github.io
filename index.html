@@ -1,118 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vinicius Souza</title>
+    <script src="./js/container.js" defer></script>
+    <script src="./js/script.js" defer></script>
+    <link rel="stylesheet" href="./stylesheets/keyframes.css" />
+    <link rel="stylesheet" href="./stylesheets/main.css" />
+    <link rel="stylesheet" href="./stylesheets/metal.css" />
+  </head>
+  <body>
+    <button id="btn-skip">Skip animation</button>
+    <div class="container-animation hidden">
+      <h1 class="V letra">V</h1>
+      <div class="cobrindoV1 cobertura"></div>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Portfolio</title>
-        <link rel="stylesheet" href="./stylesheets/main.css">
-        <link rel="stylesheet" href="./stylesheets/informations.css">
-    </head>
+      <div class="letra i1">i</div>
+      <div class="cobrindoI1 cobertura"></div>
+      <div class="pingoI1 letra"></div>
 
-    <body>
-        <!-- <div class="entrada">
-            <div class="content">
-                <h1 id="first">Hello!</h1>
-                <h1 id="second">And welcome</h1>
-                <h1 id="thirth">To my portfolio</h1>
-            </div>
-        </div> -->
-        <main>
-            <div class="container">
-                <img id="vini-calvo" src="./assets/imagem-vini_calvo-removebg-preview.png" alt="A photo of me">
-                <div class="buttonsParent">
-                    <div class="buttons">
-                        <p>About me</p>
-                    </div>
-                    <div class="buttons">
-                        <p>Projects</p>
-                    </div>
-                    <div class="buttons">
-                        <p>Curriculum</p>
-                    </div>
-                </div>
-                <div class="img">
-                    <a href="https://www.instagram.com/vinisouza.exe/" target="_blank">
-                        <img src="./assets/insta-logo.png" alt="insta-log">
-                    </a>
-                    <a href="https://github.com/vinisouza001" target="_blank">
-                        <img src="./assets/GITHUB-LOGO.png" alt="github-log">
-                    </a>
-                    <a href="https://api.whatsapp.com/send/?phone=5519996898117&text&type=phone_number&app_absent=0"
-                        target="_blank">
-                        <img src="./assets/logo-zap.png" alt="whatsapp-log">
-                    </a>
-                    <a href="www.linkedin.com/in/vinícius-vieira-17461427a" target="_blank">
-                        <img src="./assets/linkedin-logo.png" alt="linkedin logo" id="linkedin">
-                    </a>
-                </div>
-            </div>
-        </main>
-        <!------------- ABOUT ME -------------------->
-        <div class="about-me">
-            <header>
-                <div class="voltarAboutMe voltar">
-                    <img src="./assets/back.png" alt="seta de voltar" class="seta-voltar">
-                    <p id="txt-voltar">Back</p>
-                </div>
-            </header>
-            <img src="./assets/perfil.jpg" alt="Uma foto minha" id="perfil">
-            <p id="title-about-me">Hey guys, my name is Vinicius Vieira de Souza!!</p>
-            <p class="txt-about-me">I'm curious, polymath and self-taught. In my spare time, I enjoy playing games,
-                programming, riding a bike, listening musics and work out.
-            </p>
-            <p class="txt-about-me">
-                I strive in everything I do and I am concerned first with quality and then quantity.
-            </p>
-            <p class="txt-about-me">
-                I worked as an intern at Caixa Econômica Federal, there I learned how to work with the public and
-                work in a team. Today I study systems analysis and development at Senai and I'm looking for a job in the
-                area.
-                For now, I'm a junior full stack programmer and I'm open to always learning new things.
-            </p>
-            <p class="txt-about-me">
-                I have stuyied english on Excellent Global for 6 years, and my level of english is advanced.
-            </p>
-        </div>
-        <!------------- PROJECTS -------------------->
-        <div class="projects">
-            <header>
-                <div class="voltarProject voltar inverso">
-                    <img src="./assets/back.png" alt="seta de voltar" class="seta-voltar" id="voltar-inverso">
-                    <p id="txt-voltar">Back</p>
-                </div>
-            </header>
-            <h1 class="title">Projects</h1>
-            <div id="works"></div>
-            <h1 class="title">Videos</h1>
-            <div id="videos"></div>
-        </div>
-        <!------------- CURRICULUM -------------------->
-        <div class="curriculum">
-            <header>
-                <div class="voltarProject voltar">
-                    <img src="./assets/back.png" alt="seta de voltar" class="seta-voltar">
-                    <p id="txt-voltar">Back</p>
-                </div>
-            </header>
-            <div class="content">
-                <div class="card">
-                    <a href="./resumes/curriculo.pdf" target="_blank">
-                        <img class="img-curriculum" src="./assets/curriculum-pdf.png" alt="curriculum pdf">
-                        <p class="txt-card">Curriculum pdf</p>
-                    </a>
-                </div>
-                <div class="card">
-                    <a href="./resumes/resume.html" target="_blank">
-                        <img class="img-curriculum" src="./assets/curriculum-html.png" alt="curriculum html">
-                        <p class="txt-card">Curriculum html</p>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </body>
-    <script src="./scripts/container.js"></script>
-    <script src="./scripts/main.js"></script>
+      <h1 class="n letra">n</h1>
+      <div class="cobrindoN cobertura"></div>
 
+      <h1 class="i2 letra">i</h1>
+      <div class="cobrindoI2 cobertura"></div>
+      <div class="pingoI2 cobertura"></div>
+
+      <div class="letra c">c</div>
+      <div class="cobrindoC cobertura"></div>
+
+      <h1 class="letra i3">i</h1>
+      <div class="cobertura cobrindoi3"></div>
+      <div class="pingoI3 cobertura"></div>
+
+      <h1 class="letra u1">u</h1>
+      <div class="cobertura cobrindoU1"></div>
+
+      <h1 class="letra s1">s</h1>
+      <div class="cobertura cobrindoS1"></div>
+
+      <h1 class="letra s2">S</h1>
+      <div class="cobertura cobrindoS2"></div>
+
+      <h1 class="letra o">o</h1>
+      <div class="cobertura cobrindoO"></div>
+
+      <h1 class="letra u2">u</h1>
+      <div class="cobertura cobrindoU2"></div>
+
+      <h1 class="letra z animationZ">z</h1>
+      <div class="cobertura cobrindoZ1 animationZ"></div>
+      <div class="cobertura cobrindoZ2 animationZ"></div>
+      <div class="cobertura cobrindoZ3 animationZ"></div>
+
+      <h1 class="letra a">a</h1>
+      <div class="cobertura cobrindoA"></div>
+    </div>
+
+    <div class="nomePrateado hidden">
+      <span class="name">Vinicius Souza</span>
+    </div>
+    <div class="nomePrateado hidden">
+      <span class="name">Vinicius Souza</span>
+    </div>
+    <div class="containerSegundaAnimacao">
+      <div class="cobrirSegundaAnimacao"></div>
+    </div>
+    <main class="hidden" id="homeMain">
+      <img src="./assets/vini.png" alt="Vini" />
+      <nav>
+        <ul>
+          <li id="about-me">
+            <h6>About me</h6>
+            <img
+              class="arrow inverted-arrow"
+              src="./assets/back.png"
+              alt="arrow"
+            />
+          </li>
+          <li id="projects">
+            <img class="arrow" src="./assets/back.png" alt="arrow" />
+            <h6>Projects</h6>
+          </li>
+          <li id="curriculum">
+            <h6>Curriculum</h6>
+            <img
+              class="arrow inverted-arrow"
+              src="./assets/back.png"
+              alt="arrow"
+            />
+          </li>
+        </ul>
+      </nav>
+    </main>
+    <main id="aboutMeMain" class="hidden">
+      <img src="./assets/back.png" class="back hidden" alt="return" />
+      <img src="./assets/perfil.jpg" alt="Profile picture" id="profile" />
+      <h2>Hey guys, my name is Vinicius Vieira de Souza!</h2>
+      <p>
+        I'm curious, polymath and self-taught. In my spare time, I enjoy playing
+        games, programming, riding a bike, listening musics and work out.
+      </p>
+      <p>
+        I strive in everything I do and I am concerned first with quality and
+        then quantity.
+      </p>
+      <p>
+        I worked as an intern at Caixa Econômica Federal, there I learned how to
+        work with the public and work in a team. Today I study systems analysis
+        and development at Senai and I'm looking for a job in the area. For now,
+        I'm a junior full stack programmer and I'm open to always learning new
+        things.
+      </p>
+      <p>
+        I have stuyied english on Excellent Global for 6 years, and my level of
+        english is advanced.
+      </p>
+
+      <p id="contacts-area-p" onmouseover="entrar()">Contacts area:</p>
+      <p id="contact-area">
+        <a href="https://github.com/ViniSouza001" target="_blank">
+          <img
+            id="github-icon"
+            src="./assets/github.png"
+            alt="github contact"
+          />
+        </a>
+        <a
+          href="https://api.whatsapp.com/send/?phone=5519996898117&text&type=phone_number&app_absent=0"
+        >
+          <img
+            id="whatsapp-icon"
+            src="./assets/whatsapp.png"
+            alt=" WhatsApp contact"
+          />
+        </a>
+        <a href="https://www.instagram.com/vinisouza.exe">
+          <img
+            id="instagram-icon"
+            src="./assets/instagram.png"
+            alt="Instagram contact"
+          />
+        </a>
+        <a href="www.linkedin.com/in/vinícius-vieira-de-souza-17461427a">
+          <img
+            id="linkedin-icon"
+            src="./assets/linkedin.png"
+            alt=" LinkedIn contact"
+          />
+        </a>
+      </p>
+    </main>
+    <main id="projMain" class="hidden">
+      <img
+        src="./assets/back.png"
+        class="back inverted-back hidden"
+        alt="return"
+      />
+
+      <div class="projects">
+        <h1>Projetos</h1>
+        <hr />
+        <section></section>
+      </div>
+      <div class="videos">
+        <h1>Videos</h1>
+        <hr />
+        <section></section>
+      </div>
+    </main>
+    <main id="curriculumMain" class="hidden">
+      <img src="./assets/back.png" alt="return" class="back hidden" />
+      <section class="curriculum">
+        <div class="projeto">
+          <a href="./assets/curriculum/curriculo.pdf">
+            <img src="./assets/curriculum-pdf.png" alt="curriculum.pdf" />
+            <p>Curriculum PDF</p>
+          </a>
+        </div>
+        <div class="projeto">
+          <a href="./assets/curriculum/resume.html">
+            <img src="./assets/curriculum-html.png" alt="curriculum.html" />
+            <p>Curriculum HTML</p>
+          </a>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>

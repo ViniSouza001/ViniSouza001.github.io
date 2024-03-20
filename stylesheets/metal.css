@@ -1,0 +1,29 @@
+.nomePrateado {
+  width: 300px;
+  height: 150px;
+  display: flex;
+  align-self: center;
+  margin-top: 90px;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  position: absolute;
+  z-index: 50;
+}
+
+.name {
+  top: 50%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  z-index: 50;
+  text-align: center;
+  font-family: sans-serif;
+  font-style: italic;
+  font-size: 60px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  background: linear-gradient(#666666, #fff, #666666);
+  -webkit-background-clip: text;
+  color: transparent;
+}
