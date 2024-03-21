@@ -58,6 +58,6 @@ const projetos = [
     imagem: "./assets/chat.png",
     descricao: "A chat developed studying Web Sockets",
     linkGit: "https://github.com/ViniSouza001/online_chat",
-    linkProj: "https://web-online-chat.vercel.app/",
+    linkProj: "https://online-chatjs.vercel.app/",
   },
 ];
